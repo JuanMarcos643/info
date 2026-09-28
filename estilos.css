@@ -1,7 +1,7 @@
 :root {
   --ink: #202b3c;
   --muted: #737e90;
-  --purple: #705cf6;
+  --purple: #f7c948;
   --line: #e7e9f0;
   --canvas: #f7f8fc;
   font-family: "DM Sans", sans-serif;
@@ -142,7 +142,7 @@ h3 {
   border-radius: 9px;
   color: #fff;
   background: var(--purple);
-  box-shadow: 0 6px 14px rgba(112, 92, 246, 0.18);
+  box-shadow: 0 6px 14px rgba(247, 201, 72, 0.25);
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
@@ -150,7 +150,7 @@ h3 {
 }
 
 .primary-link:hover {
-  background: #5a46df;
+  background: #e2b218;
   transform: translateY(-1px);
 }
 
@@ -166,7 +166,7 @@ h3 {
   bottom: -58px;
   display: grid;
   place-items: start center;
-  border: 1px solid rgba(112, 92, 246, 0.17);
+  border: 1px solid rgba(247, 201, 72, 0.24);
   border-radius: 50%;
   color: #f0b84b;
   font-size: 40px;
@@ -176,7 +176,7 @@ h3 {
 .hero-decoration::before,
 .hero-decoration::after {
   position: absolute;
-  border: 1px solid rgba(112, 92, 246, 0.13);
+  border: 1px solid rgba(247, 201, 72, 0.18);
   border-radius: 50%;
   content: "";
 }
@@ -297,7 +297,7 @@ h3 {
 }
 
 :focus-visible {
-  outline: 3px solid rgba(112, 92, 246, 0.35);
+  outline: 3px solid rgba(247, 201, 72, 0.45);
   outline-offset: 3px;
 }
 
